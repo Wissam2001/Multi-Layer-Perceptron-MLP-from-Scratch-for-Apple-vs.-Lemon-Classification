@@ -29,6 +29,8 @@ The primary objectives of this lab project were to:
 - Compare optimization algorithms (SGD, BGD, MGD) in terms of loss convergence and training time.
 - Analyze the effect of activation functions (ReLU vs. Sigmoid) on learning and performance.
 - Investigate weight initialization (random vs. zero) and its impact on the network's ability to learn.
+- Visualize training progress using loss curves.
+- Evaluate classification performance using confusion matrices.
 
   # Dataset 🗂️
   **Classes:** Apple (0), Lemon (1)
@@ -37,8 +39,28 @@ The primary objectives of this lab project were to:
   - Testing: 100 images (50 apples + 50 lemons)
   **Image size:** 64×64 pixels (after resizing)
   **Format:** PNG images loaded using OpenCV
-    The dataset is available in the following link
+    The dataset is available at the following link
 
-     https://drive.google.com/file/d/1ZtVTTxAHMavnYdeCUoqQyaZkNk_eF3IR/view?usp=shari ng   
-- Visualize training progress using loss curves.
-- Evaluate classification performance using confusion matrices.
+     https://drive.google.com/file/d/1ZtVTTxAHMavnYdeCUoqQyaZkNk_eF3IR/view?usp=shari ng
+
+  # Libraries 📚
+  - **NumPy:** Matrix operations and neural network implementation
+  - **OpenCV:** Image loading and preprocessing
+  - **Matplotlib** Loss curves visualization
+  - **Scikit-learn:** Confusion matrix and classification report
+
+  # Lessons Learned 🧠
+  - **Activation function choice is critical:** Sigmoid is suitable for binary classification outputs, while ReLU may fail if used in the output layer.
+  - **Weight initialization matters:** Random initialization breaks symmetry; zero initialization prevents learning entirely.
+  - **Gradient descent variants affect convergence speed and stability:**
+    * BGD: stable but slow
+    * SGD: faster but noisy
+    * MGD: balanced trade-off
+   - **Implementing backpropagation manually provides deep insight into how neural networks learn.**
+ 
+  # License 📝
+  This project is for educational purposes as part of a Master's lab assignment.
+
+  # Contact ✉️
+  • **Email:** wissambadia4@gmail.com
+  • **LinkedIn:** [Badia Ouissam Lakas](linkedin.com/in/badia-ouissam-lakas-a66a28214)  
