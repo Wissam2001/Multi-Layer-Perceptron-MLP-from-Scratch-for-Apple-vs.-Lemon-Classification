@@ -1,5 +1,5 @@
 # Overview 📌
-This project was developed as part of a Master's Lab assignment to implement a Multi-Layer Perceptron (MLP) from scratch using only NumPy and core Python libraries. The goal is to classify images of apples and lemons using a neural network built without high-level deep learning frameworks like TensorFlow or Keras.
+This project was developed as part of the Deep Learning Master's Lab assignment to implement a Multi-Layer Perceptron (MLP) from scratch using only NumPy and core Python libraries. The goal is to classify images of apples and lemons using a neural network built without high-level deep learning frameworks like TensorFlow or Keras.
 
 The project explores the fundamental concepts of neural networks, including forward propagation, backpropagation, gradient descent variants, activation functions, and weight initialization strategies.
 
